@@ -1,3 +1,4 @@
+%undefine _debugsource_packages
 
 %define         appname com.system76.CosmicNotifications
 Name:           cosmic-notifications
