@@ -3,12 +3,12 @@
 %define         appname com.system76.CosmicNotifications
 Name:           cosmic-notifications
 Version:        1.0.0
-Release:        0.alpha1.0
+Release:        0.alpha2.0
 Summary:        Layer for COSMIC Notifications
 License:        GPL-3.0-only
 Group:          Desktop/COSMIC
 URL:            https://github.com/pop-os/cosmic-notifications
-Source0:        https://github.com/pop-os/cosmic-notifications/archive/epoch-%{version}-alpha.1/%{name}-epoch-%{version}-alpha.1.tar.gz
+Source0:        https://github.com/pop-os/cosmic-notifications/archive/epoch-%{version}-alpha.2/%{name}-epoch-%{version}-alpha.2.tar.gz
 Source1:        vendor.tar.xz
 Source2:        cargo_config
 
@@ -25,7 +25,7 @@ BuildRequires:  pkgconfig(xkbcommon)
 Layer Shell notifications daemon which integrates with COSMIC.
 
 %prep
-%autosetup -n %{name}-epoch-%{version}-alpha.1 -a1 -p1
+%autosetup -n %{name}-epoch-%{version}-alpha.2 -a1 -p1
 rm -rf .cargo
 mkdir .cargo
 cp %{SOURCE2} .cargo/config
