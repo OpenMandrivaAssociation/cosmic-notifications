@@ -3,7 +3,7 @@
 %define         appname com.system76.CosmicNotifications
 Name:           cosmic-notifications
 Version:        1.0.0
-%define beta alpha.6
+%define beta alpha.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        Layer for COSMIC Notifications
 License:        GPL-3.0-only
