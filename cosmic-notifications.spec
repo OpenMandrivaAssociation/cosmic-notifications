@@ -2,8 +2,8 @@
 
 %define         appname com.system76.CosmicNotifications
 Name:           cosmic-notifications
-Version:        1.0.0
-%define beta beta.7
+Version:        1.0.2
+#define beta beta.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        Layer for COSMIC Notifications
 License:        GPL-3.0-only
@@ -13,6 +13,7 @@ Source0:        https://github.com/pop-os/cosmic-notifications/archive/epoch-%{v
 Source1:        vendor.tar.xz
 Source2:        cargo_config
 
+BuildRequires:  make
 BuildRequires:  appstream-util
 BuildRequires:  rust-packaging
 BuildRequires:  hicolor-icon-theme
