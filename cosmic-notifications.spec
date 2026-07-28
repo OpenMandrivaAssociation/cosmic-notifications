@@ -2,7 +2,7 @@
 
 %define         appname com.system76.CosmicNotifications
 Name:           cosmic-notifications
-Version:        1.0.2
+Version:        1.2.0
 #define beta beta.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        Layer for COSMIC Notifications
@@ -42,6 +42,3 @@ just rootdir=%{buildroot} prefix=%{_prefix} install
 %license LICENSE.md
 %doc README.md
 %{_bindir}/%{name}
-%{_datadir}/applications/%{appname}.desktop
-%{_datadir}/icons/hicolor/scalable/apps/%{appname}.svg
-%{_datadir}/metainfo/%{appname}.metainfo.xml
