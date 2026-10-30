@@ -2,7 +2,7 @@
 
 %define         appname com.system76.CosmicNotifications
 Name:           cosmic-notifications
-Version:        1.7.0
+Version:        1.11.0
 #define beta beta.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        Layer for COSMIC Notifications
